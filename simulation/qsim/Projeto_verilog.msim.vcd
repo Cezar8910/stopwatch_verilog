@@ -1,0 +1,1083 @@
+$comment
+	File created using the following command:
+		vcd file Projeto_verilog.msim.vcd -direction
+$end
+$date
+	Wed Jul 24 23:04:19 2024
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module contador_segundos_vlg_vec_tst $end
+$var reg 1 ! clock $end
+$var reg 1 " contar $end
+$var reg 4 # num_contador_anterior [3:0] $end
+$var reg 1 $ parar $end
+$var reg 1 % pausar $end
+$var reg 1 & reset $end
+$var wire 1 ' num_saida_contador [3] $end
+$var wire 1 ( num_saida_contador [2] $end
+$var wire 1 ) num_saida_contador [1] $end
+$var wire 1 * num_saida_contador [0] $end
+$var wire 1 + num_saida_display [3] $end
+$var wire 1 , num_saida_display [2] $end
+$var wire 1 - num_saida_display [1] $end
+$var wire 1 . num_saida_display [0] $end
+
+$scope module i1 $end
+$var wire 1 / gnd $end
+$var wire 1 0 vcc $end
+$var wire 1 1 unknown $end
+$var tri1 1 2 devclrn $end
+$var tri1 1 3 devpor $end
+$var tri1 1 4 devoe $end
+$var wire 1 5 num_saida_display[0]~output_o $end
+$var wire 1 6 num_saida_display[1]~output_o $end
+$var wire 1 7 num_saida_display[2]~output_o $end
+$var wire 1 8 num_saida_display[3]~output_o $end
+$var wire 1 9 num_saida_contador[0]~output_o $end
+$var wire 1 : num_saida_contador[1]~output_o $end
+$var wire 1 ; num_saida_contador[2]~output_o $end
+$var wire 1 < num_saida_contador[3]~output_o $end
+$var wire 1 = clock~input_o $end
+$var wire 1 > parar~input_o $end
+$var wire 1 ? contar~input_o $end
+$var wire 1 @ reset~input_o $end
+$var wire 1 A Selector2~0_combout $end
+$var wire 1 B pausar~input_o $end
+$var wire 1 C Selector2~2_combout $end
+$var wire 1 D Selector0~0_combout $end
+$var wire 1 E Selector0~1_combout $end
+$var wire 1 F Selector0~2_combout $end
+$var wire 1 G Selector0~3_combout $end
+$var wire 1 H Selector0~4_combout $end
+$var wire 1 I estado_atual.RESET~q $end
+$var wire 1 J Selector2~1_combout $end
+$var wire 1 K Selector2~3_combout $end
+$var wire 1 L estado_atual.PAUSAR~q $end
+$var wire 1 M Selector1~0_combout $end
+$var wire 1 N Selector1~1_combout $end
+$var wire 1 O estado_atual.CONTAR~q $end
+$var wire 1 P Selector3~0_combout $end
+$var wire 1 Q Selector3~1_combout $end
+$var wire 1 R estado_atual.PARAR~q $end
+$var wire 1 S num_contador_anterior[3]~input_o $end
+$var wire 1 T num_contador_anterior[0]~input_o $end
+$var wire 1 U num_contador_anterior[2]~input_o $end
+$var wire 1 V num_contador_anterior[1]~input_o $end
+$var wire 1 W always1~0_combout $end
+$var wire 1 X always1~1_combout $end
+$var wire 1 Y always1~2_combout $end
+$var wire 1 Z Selector11~2_combout $end
+$var wire 1 [ Selector7~0_combout $end
+$var wire 1 \ num_saida_display[0]~reg0_q $end
+$var wire 1 ] Selector4~0_combout $end
+$var wire 1 ^ Selector9~2_combout $end
+$var wire 1 _ num_conta~2_combout $end
+$var wire 1 ` Selector9~3_combout $end
+$var wire 1 a Equal2~0_combout $end
+$var wire 1 b Selector8~1_combout $end
+$var wire 1 c Add0~0_combout $end
+$var wire 1 d always1~3_combout $end
+$var wire 1 e num_conta~1_combout $end
+$var wire 1 f Selector8~0_combout $end
+$var wire 1 g Selector10~0_combout $end
+$var wire 1 h num_conta~0_combout $end
+$var wire 1 i Selector6~0_combout $end
+$var wire 1 j Selector6~1_combout $end
+$var wire 1 k num_saida_display[1]~reg0_q $end
+$var wire 1 l Selector5~0_combout $end
+$var wire 1 m num_saida_display[2]~reg0_q $end
+$var wire 1 n Selector4~1_combout $end
+$var wire 1 o num_saida_display[3]~reg0_q $end
+$var wire 1 p num_saida_contador[0]~reg0_q $end
+$var wire 1 q num_saida_contador[1]~reg0_q $end
+$var wire 1 r num_saida_contador[2]~reg0_q $end
+$var wire 1 s num_saida_contador[3]~reg0_q $end
+$var wire 1 t num_conta [3] $end
+$var wire 1 u num_conta [2] $end
+$var wire 1 v num_conta [1] $end
+$var wire 1 w num_conta [0] $end
+$var wire 1 x num_contador_anterior_aux [3] $end
+$var wire 1 y num_contador_anterior_aux [2] $end
+$var wire 1 z num_contador_anterior_aux [1] $end
+$var wire 1 { num_contador_anterior_aux [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+b1001 #
+0$
+0%
+0&
+0*
+0)
+0(
+0'
+0.
+0-
+0,
+0+
+0/
+10
+x1
+12
+13
+14
+05
+06
+07
+08
+09
+0:
+0;
+0<
+0=
+0>
+1?
+0@
+1A
+0B
+0C
+0D
+0E
+1F
+1G
+1H
+0I
+0J
+0K
+0L
+1M
+1N
+0O
+0P
+0Q
+0R
+1S
+1T
+0U
+0V
+0W
+0X
+0Y
+0Z
+0[
+0\
+0]
+0^
+0_
+0`
+0a
+0b
+0c
+0d
+0e
+0f
+0g
+0h
+0i
+0j
+0k
+0l
+0m
+0n
+0o
+0p
+0q
+0r
+0s
+0w
+0v
+0u
+0t
+0{
+0z
+0y
+0x
+$end
+#5000
+1!
+1=
+1{
+1x
+1O
+1I
+1d
+1f
+1^
+0F
+0G
+#10000
+0!
+0=
+#15000
+1!
+1=
+#20000
+b1 #
+b0 #
+0!
+0T
+0S
+0=
+1W
+1X
+1Y
+1[
+1Z
+#25000
+1!
+1=
+1w
+0{
+0x
+1p
+1\
+15
+19
+1h
+1a
+0d
+0Y
+1*
+1.
+0[
+0Z
+1i
+0h
+0a
+1g
+1[
+1Z
+0i
+1j
+0g
+0j
+#30000
+0!
+0=
+#35000
+1!
+1=
+#40000
+b1000 #
+b1001 #
+0!
+1T
+1S
+0=
+0W
+0X
+#45000
+1!
+1=
+1{
+1x
+1d
+#50000
+0"
+0!
+0?
+0=
+#55000
+1!
+1=
+#60000
+1%
+b1 #
+b0 #
+0!
+1B
+0T
+0S
+0=
+1D
+1C
+1W
+1h
+1X
+0N
+1K
+1i
+1Y
+1g
+1a
+1j
+0[
+0Z
+#65000
+1!
+1=
+1v
+0w
+0{
+0x
+0O
+1L
+1q
+0p
+1k
+0\
+05
+16
+09
+1:
+0a
+0d
+0Y
+0i
+0D
+1)
+0*
+1-
+0.
+1Z
+1a
+0Z
+0j
+#70000
+0!
+0=
+#75000
+1!
+1=
+#80000
+b1000 #
+b1001 #
+0!
+1T
+1S
+0=
+0W
+0X
+#85000
+1!
+1=
+1{
+1x
+1d
+#90000
+0!
+0=
+#95000
+1!
+1=
+#100000
+b1 #
+b0 #
+0!
+0T
+0S
+0=
+1W
+1X
+1Y
+0a
+1Z
+#105000
+1!
+1=
+1w
+0{
+0x
+1p
+19
+0h
+1_
+0d
+0Y
+1*
+0Z
+1h
+0_
+0g
+1`
+1Z
+1g
+0`
+#110000
+0%
+0!
+0B
+0=
+#115000
+1!
+1=
+#120000
+b1000 #
+b1001 #
+0!
+1T
+1S
+0=
+0W
+0X
+#125000
+1!
+1=
+1{
+1x
+1d
+#130000
+0!
+0=
+#135000
+1!
+1=
+#140000
+b1 #
+b0 #
+0!
+0T
+0S
+0=
+1W
+0h
+1X
+1Y
+0g
+1_
+0Z
+1`
+#145000
+1!
+1=
+0v
+1u
+0w
+0{
+0x
+1r
+0q
+0p
+09
+0:
+1;
+0d
+0Y
+1(
+0)
+0*
+1Z
+0Z
+#150000
+0!
+0=
+#155000
+1!
+1=
+#160000
+0!
+0=
+#165000
+1!
+1=
+#170000
+0!
+0=
+#175000
+1!
+1=
+#180000
+0!
+0=
+#185000
+1!
+1=
+#190000
+0!
+0=
+#195000
+1!
+1=
+#200000
+1"
+0!
+1?
+0=
+1G
+0C
+1N
+0K
+#205000
+1!
+1=
+1O
+0L
+0G
+1l
+#210000
+0!
+0=
+#215000
+1!
+1=
+1m
+0k
+06
+17
+1,
+0-
+#220000
+0!
+0=
+#225000
+1!
+1=
+#230000
+0!
+0=
+#235000
+1!
+1=
+#240000
+0!
+0=
+#245000
+1!
+1=
+#250000
+0"
+0!
+0?
+0=
+#255000
+1!
+1=
+#260000
+1%
+0!
+1B
+0=
+1D
+1C
+0N
+1K
+#265000
+1!
+1=
+0O
+1L
+0D
+0l
+#270000
+0!
+0=
+#275000
+1!
+1=
+#280000
+0!
+0=
+#285000
+1!
+1=
+#290000
+0!
+0=
+#295000
+1!
+1=
+#300000
+0!
+0=
+#305000
+1!
+1=
+#310000
+0%
+0!
+0B
+0=
+#315000
+1!
+1=
+#320000
+0!
+0=
+#325000
+1!
+1=
+#330000
+0!
+0=
+#335000
+1!
+1=
+#340000
+0!
+0=
+#345000
+1!
+1=
+#350000
+0!
+0=
+#355000
+1!
+1=
+#360000
+0!
+0=
+#365000
+1!
+1=
+#370000
+0!
+0=
+#375000
+1!
+1=
+#380000
+0!
+0=
+#385000
+1!
+1=
+#390000
+0!
+0=
+#395000
+1!
+1=
+#400000
+1"
+0!
+1?
+0=
+1G
+0C
+1N
+0K
+#405000
+1!
+1=
+1O
+0L
+0G
+1l
+#410000
+0!
+0=
+#415000
+1!
+1=
+#420000
+0!
+0=
+#425000
+1!
+1=
+#430000
+0!
+0=
+#435000
+1!
+1=
+#440000
+0!
+0=
+#445000
+1!
+1=
+#450000
+0"
+0!
+0?
+0=
+#455000
+1!
+1=
+#460000
+1%
+0!
+1B
+0=
+1D
+1C
+0N
+1K
+#465000
+1!
+1=
+0O
+1L
+0D
+0l
+#470000
+0!
+0=
+#475000
+1!
+1=
+#480000
+0!
+0=
+#485000
+1!
+1=
+#490000
+0!
+0=
+#495000
+1!
+1=
+#500000
+0!
+0=
+#505000
+1!
+1=
+#510000
+0%
+0!
+0B
+0=
+#515000
+1!
+1=
+#520000
+0!
+0=
+#525000
+1!
+1=
+#530000
+0!
+0=
+#535000
+1!
+1=
+#540000
+0!
+0=
+#545000
+1!
+1=
+#550000
+0!
+0=
+#555000
+1!
+1=
+#560000
+0!
+0=
+#565000
+1!
+1=
+#570000
+0!
+0=
+#575000
+1!
+1=
+#580000
+0!
+0=
+#585000
+1!
+1=
+#590000
+0!
+0=
+#595000
+1!
+1=
+#600000
+1"
+0!
+1?
+0=
+1G
+0C
+1N
+0K
+#605000
+1!
+1=
+1O
+0L
+0G
+1l
+#610000
+0!
+0=
+#615000
+1!
+1=
+#620000
+0!
+0=
+#625000
+1!
+1=
+#630000
+0!
+0=
+#635000
+1!
+1=
+#640000
+0!
+0=
+#645000
+1!
+1=
+#650000
+0"
+0!
+0?
+0=
+#655000
+1!
+1=
+#660000
+1%
+0!
+1B
+0=
+1D
+1C
+0N
+1K
+#665000
+1!
+1=
+0O
+1L
+0D
+0l
+#670000
+0!
+0=
+#675000
+1!
+1=
+#680000
+0!
+0=
+#685000
+1!
+1=
+#690000
+0!
+0=
+#695000
+1!
+1=
+#700000
+0!
+0=
+#705000
+1!
+1=
+#710000
+0%
+0!
+0B
+0=
+#715000
+1!
+1=
+#720000
+0!
+0=
+#725000
+1!
+1=
+#730000
+0!
+0=
+#735000
+1!
+1=
+#740000
+0!
+0=
+#745000
+1!
+1=
+#750000
+0!
+0=
+#755000
+1!
+1=
+#760000
+0!
+0=
+#765000
+1!
+1=
+#770000
+0!
+0=
+#775000
+1!
+1=
+#780000
+0!
+0=
+#785000
+1!
+1=
+#790000
+0!
+0=
+#795000
+1!
+1=
+#800000
+1"
+0!
+1?
+0=
+1G
+0C
+1N
+0K
+#805000
+1!
+1=
+1O
+0L
+0G
+1l
+#810000
+0!
+0=
+#815000
+1!
+1=
+#820000
+0!
+0=
+#825000
+1!
+1=
+#830000
+0!
+0=
+#835000
+1!
+1=
+#840000
+0!
+0=
+#845000
+1!
+1=
+#850000
+0"
+0!
+0?
+0=
+#855000
+1!
+1=
+#860000
+1%
+0!
+1B
+0=
+1D
+1C
+0N
+1K
+#865000
+1!
+1=
+0O
+1L
+0D
+0l
+#870000
+0!
+0=
+#875000
+1!
+1=
+#880000
+0!
+0=
+#885000
+1!
+1=
+#890000
+0!
+0=
+#895000
+1!
+1=
+#900000
+0!
+0=
+#905000
+1!
+1=
+#910000
+0%
+0!
+0B
+0=
+#915000
+1!
+1=
+#920000
+0!
+0=
+#925000
+1!
+1=
+#930000
+0!
+0=
+#935000
+1!
+1=
+#940000
+0!
+0=
+#945000
+1!
+1=
+#950000
+0!
+0=
+#955000
+1!
+1=
+#960000
+0!
+0=
+#965000
+1!
+1=
+#970000
+0!
+0=
+#975000
+1!
+1=
+#980000
+0!
+0=
+#985000
+1!
+1=
+#990000
+0!
+0=
+#995000
+1!
+1=
+#1000000

@@ -1,0 +1,135 @@
+Flow report for Projeto_verilog
+Tue Jul 23 15:20:22 2024
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Tue Jul 23 15:20:22 2024       ;
+; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Revision Name                      ; Projeto_verilog                             ;
+; Top-level Entity Name              ; cronometro                                  ;
+; Family                             ; Cyclone IV E                                ;
+; Device                             ; EP4CE115F29C7                               ;
+; Timing Models                      ; Final                                       ;
+; Total logic elements               ; 216                                         ;
+;     Total combinational functions  ; 204                                         ;
+;     Dedicated logic registers      ; 117                                         ;
+; Total registers                    ; 117                                         ;
+; Total pins                         ; 33                                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 07/23/2024 15:19:38 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; Projeto_verilog     ;
++-------------------+---------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                 ;
++-------------------------------------+----------------------------------------+-----------------+-------------+-----------------------------------+
+; Assignment Name                     ; Value                                  ; Default Value   ; Entity Name ; Section Id                        ;
++-------------------------------------+----------------------------------------+-----------------+-------------+-----------------------------------+
+; COMPILER_SIGNATURE_ID               ; 10995770589192.172175877803012         ; --              ; --          ; --                                ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --              ; --          ; eda_board_design_timing           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --              ; --          ; eda_timing_analysis               ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --              ; --          ; eda_board_design_boundary_scan    ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --              ; --          ; eda_board_design_signal_integrity ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --              ; --          ; eda_formal_verification           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --              ; --          ; eda_board_design_symbol           ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --              ; --          ; eda_simulation                    ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)              ; <None>          ; --          ; --                                ;
+; EDA_TIME_SCALE                      ; 1 ps                                   ; --              ; --          ; eda_simulation                    ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --              ; --          ; --                                ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --              ; --          ; --                                ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --              ; cronometro  ; Top                               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --              ; cronometro  ; Top                               ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --              ; cronometro  ; Top                               ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --              ; --          ; --                                ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --              ; --          ; --                                ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --              ; --          ; --                                ;
+; TOP_LEVEL_ENTITY                    ; cronometro                             ; Projeto_verilog ; --          ; --                                ;
++-------------------------------------+----------------------------------------+-----------------+-------------+-----------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:10     ; 1.0                     ; 4843 MB             ; 00:00:17                           ;
+; EDA Netlist Writer   ; 00:00:03     ; 1.0                     ; 4651 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:04     ; 1.0                     ; 4651 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:04     ; 1.0                     ; 4655 MB             ; 00:00:01                           ;
+; Total                ; 00:00:21     ; --                      ; --                  ; 00:00:18                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; HWC23            ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; HWC23            ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; HWC23            ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; HWC23            ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off Projeto_verilog -c Projeto_verilog
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Projeto_verilog -c Projeto_verilog --vector_source=/home/pedro/Documentos/Faculdade/Sistemas_Digitais/Cronometro_com_pinagem/teste_cronometro.vwf --testbench_file=/home/pedro/Documentos/Faculdade/Sistemas_Digitais/Cronometro_com_pinagem/simulation/qsim/teste_cronometro.vwf.vt
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Projeto_verilog -c Projeto_verilog --vector_source=D:/Users/phas2/Downloads/Cronometro_verilog-20240723T174427Z-001/Cronometro_verilog/teste_cronometro.vwf --testbench_file=D:/Users/phas2/Downloads/Cronometro_verilog-20240723T174427Z-001/Cronometro_verilog/simulation/qsim/teste_cronometro.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/Users/phas2/Downloads/Cronometro_verilog-20240723T174427Z-001/Cronometro_verilog/simulation/qsim/ Projeto_verilog -c Projeto_verilog
+
+
+

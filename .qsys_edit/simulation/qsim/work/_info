@@ -1,0 +1,241 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/cezar/Downloads/Projeto - Cronômetro/Projeto - Cronômetro/simulation/qsim
+vcontador
+Z0 !s110 1721701226
+!i10b 1
+!s100 baV6I8@ONj?n:YE370Be82
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I6`n]POoaH:KI0C5l9;VlD1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/pedro/Documentos/Faculdade/Sistemas_Digitais/Cronometro_com_pinagem/simulation/qsim
+w1721701225
+Z4 8Projeto_verilog.vo
+Z5 FProjeto_verilog.vo
+!i122 120
+L0 32 2753
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1721701226.000000
+Z8 !s107 Projeto_verilog.vo|
+Z9 !s90 -work|work|Projeto_verilog.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vcontador_inicial
+Z12 !s110 1721711690
+!i10b 1
+!s100 =C_Jn;S8jcXdIYE0l997]0
+R1
+IZlb40oZYd:_egD]<L1f@Q3
+R2
+R3
+w1721711689
+R4
+R5
+!i122 184
+L0 32 2908
+R6
+r1
+!s85 0
+31
+Z13 !s108 1721711690.000000
+R8
+R9
+!i113 1
+R10
+R11
+vcontador_inicial_vlg_vec_tst
+R12
+!i10b 1
+!s100 YOi6ND:_W`eE6^S2i]bb20
+R1
+INE[`OdJIP<bFRWYV5hnOb0
+R2
+R3
+w1721711687
+8teste_contador_inicial.vwf.vt
+Fteste_contador_inicial.vwf.vt
+!i122 185
+L0 30 63
+R6
+r1
+!s85 0
+31
+R13
+!s107 teste_contador_inicial.vwf.vt|
+!s90 -work|work|teste_contador_inicial.vwf.vt|
+!i113 1
+R10
+R11
+vcontador_segundos
+Z14 !s110 1721711966
+!i10b 1
+!s100 [B2?B6hJ=?=j<cZ@ae1DC2
+R1
+IVeS89gQCQ_;Y4U]MPTfHW2
+R2
+R3
+w1721711965
+R4
+R5
+!i122 188
+L0 32 1211
+R6
+r1
+!s85 0
+31
+Z15 !s108 1721711966.000000
+R8
+R9
+!i113 1
+R10
+R11
+vcontador_segundos_vlg_vec_tst
+R14
+!i10b 1
+!s100 lCkIXLz:YOa>@Joc6f?^31
+R1
+IKMX7e>QOlH7KR?9K8mQ;k1
+R2
+R3
+w1721711963
+8teste_contador_segundos.vwf.vt
+Fteste_contador_segundos.vwf.vt
+!i122 189
+L0 30 113
+R6
+r1
+!s85 0
+31
+R15
+!s107 teste_contador_segundos.vwf.vt|
+!s90 -work|work|teste_contador_segundos.vwf.vt|
+!i113 1
+R10
+R11
+vcontador_vlg_vec_tst
+R0
+!i10b 1
+!s100 Z_llST@hZ^X3FoTg8i[<b3
+R1
+I9cPQJ[OZdPalVPFV5I_^K2
+R2
+R3
+w1721701224
+8teste_contador.vwf.vt
+Fteste_contador.vwf.vt
+!i122 121
+L0 30 77
+R6
+r1
+!s85 0
+31
+R7
+!s107 teste_contador.vwf.vt|
+!s90 -work|work|teste_contador.vwf.vt|
+!i113 1
+R10
+R11
+vcronometro
+Z16 !s110 1721758823
+!i10b 1
+!s100 n_:jS4N1a]4`hfnDJA>OC0
+R1
+IOY;dn<HAY0MDnNhmndno@2
+R2
+Z17 dD:/Users/phas2/Downloads/Cronometro_verilog-20240723T174427Z-001/Cronometro_verilog/simulation/qsim
+w1721758822
+R4
+R5
+!i122 202
+L0 32 6227
+R6
+r1
+!s85 0
+31
+Z18 !s108 1721758823.000000
+R8
+R9
+!i113 1
+R10
+R11
+vcronometro_vlg_vec_tst
+R16
+!i10b 1
+!s100 cX035g?JUD;F]^?V0T?^a0
+R1
+IiVgDQVI6R6LblYPXoBT@I2
+R2
+R17
+w1721758818
+Z19 8teste_cronometro.vwf.vt
+Z20 Fteste_cronometro.vwf.vt
+!i122 203
+L0 30 76
+R6
+r1
+!s85 0
+31
+R18
+Z21 !s107 teste_cronometro.vwf.vt|
+Z22 !s90 -work|work|teste_cronometro.vwf.vt|
+!i113 1
+R10
+R11
+vreceber_input
+Z23 !s110 1721709894
+!i10b 1
+!s100 OQXNKkQ0_AG?ASJT:el>E0
+R1
+I5`9MK3QjP6dKbKO3JImD20
+R2
+R3
+w1721709892
+R4
+R5
+!i122 168
+L0 32 605
+R6
+r1
+!s85 0
+31
+Z24 !s108 1721709894.000000
+R8
+R9
+!i113 1
+R10
+R11
+vreceber_input_vlg_vec_tst
+R23
+!i10b 1
+!s100 LInJMZH7zbke?XZeBSLJ62
+R1
+Ii7dIbJG1AMk9J;4mW@Rgi2
+R2
+R3
+w1721709891
+R19
+R20
+!i122 169
+L0 30 64
+R6
+r1
+!s85 0
+31
+R24
+R21
+R22
+!i113 1
+R10
+R11

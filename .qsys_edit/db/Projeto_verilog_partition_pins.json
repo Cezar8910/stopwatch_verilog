@@ -1,0 +1,141 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "display_mss[0]",
+					"strict" : false
+				},
+				{
+					"name" : "display_mss[1]",
+					"strict" : false
+				},
+				{
+					"name" : "display_mss[2]",
+					"strict" : false
+				},
+				{
+					"name" : "display_mss[3]",
+					"strict" : false
+				},
+				{
+					"name" : "display_mss[4]",
+					"strict" : false
+				},
+				{
+					"name" : "display_mss[5]",
+					"strict" : false
+				},
+				{
+					"name" : "display_mss[6]",
+					"strict" : false
+				},
+				{
+					"name" : "display_uss[0]",
+					"strict" : false
+				},
+				{
+					"name" : "display_uss[1]",
+					"strict" : false
+				},
+				{
+					"name" : "display_uss[2]",
+					"strict" : false
+				},
+				{
+					"name" : "display_uss[3]",
+					"strict" : false
+				},
+				{
+					"name" : "display_uss[4]",
+					"strict" : false
+				},
+				{
+					"name" : "display_uss[5]",
+					"strict" : false
+				},
+				{
+					"name" : "display_uss[6]",
+					"strict" : false
+				},
+				{
+					"name" : "display_dss[0]",
+					"strict" : false
+				},
+				{
+					"name" : "display_dss[1]",
+					"strict" : false
+				},
+				{
+					"name" : "display_dss[2]",
+					"strict" : false
+				},
+				{
+					"name" : "display_dss[3]",
+					"strict" : false
+				},
+				{
+					"name" : "display_dss[4]",
+					"strict" : false
+				},
+				{
+					"name" : "display_dss[5]",
+					"strict" : false
+				},
+				{
+					"name" : "display_dss[6]",
+					"strict" : false
+				},
+				{
+					"name" : "display_css[0]",
+					"strict" : false
+				},
+				{
+					"name" : "display_css[1]",
+					"strict" : false
+				},
+				{
+					"name" : "display_css[2]",
+					"strict" : false
+				},
+				{
+					"name" : "display_css[3]",
+					"strict" : false
+				},
+				{
+					"name" : "display_css[4]",
+					"strict" : false
+				},
+				{
+					"name" : "display_css[5]",
+					"strict" : false
+				},
+				{
+					"name" : "display_css[6]",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "pausarI",
+					"strict" : false
+				},
+				{
+					"name" : "contarI",
+					"strict" : false
+				},
+				{
+					"name" : "resetI",
+					"strict" : false
+				},
+				{
+					"name" : "pararI",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

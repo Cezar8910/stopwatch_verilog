@@ -1,0 +1,92 @@
+Assembler report for Projeto_verilog
+Wed Jul 24 09:27:28 2024
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Assembler Summary
+  3. Assembler Settings
+  4. Assembler Generated Files
+  5. Assembler Device Options: D:/Users/cag/Downloads/Cronometro_verilog-20240724T113005Z-001/Cronometro_verilog/output_files/Projeto_verilog.sof
+  6. Assembler Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++---------------------------------------------------------------+
+; Assembler Summary                                             ;
++-----------------------+---------------------------------------+
+; Assembler Status      ; Successful - Wed Jul 24 09:27:28 2024 ;
+; Revision Name         ; Projeto_verilog                       ;
+; Top-level Entity Name ; cronometro                            ;
+; Family                ; Cyclone IV E                          ;
+; Device                ; EP4CE115F29C7                         ;
++-----------------------+---------------------------------------+
+
+
++----------------------------------+
+; Assembler Settings               ;
++--------+---------+---------------+
+; Option ; Setting ; Default Value ;
++--------+---------+---------------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                                                          ;
++--------------------------------------------------------------------------------------------------------------------+
+; File Name                                                                                                          ;
++--------------------------------------------------------------------------------------------------------------------+
+; D:/Users/cag/Downloads/Cronometro_verilog-20240724T113005Z-001/Cronometro_verilog/output_files/Projeto_verilog.sof ;
++--------------------------------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: D:/Users/cag/Downloads/Cronometro_verilog-20240724T113005Z-001/Cronometro_verilog/output_files/Projeto_verilog.sof ;
++----------------+-----------------------------------------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                                                     ;
++----------------+-----------------------------------------------------------------------------------------------------------------------------+
+; JTAG usercode  ; 0x0057F0CE                                                                                                                  ;
+; Checksum       ; 0x0057F0CE                                                                                                                  ;
++----------------+-----------------------------------------------------------------------------------------------------------------------------+
+
+
++--------------------+
+; Assembler Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Assembler
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Processing started: Wed Jul 24 09:27:22 2024
+Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off Projeto_verilog -c Projeto_verilog
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (115031): Writing out detailed assembly data for power analysis
+Info (115030): Assembler is generating device programming files
+Info: Quartus Prime Assembler was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4696 megabytes
+    Info: Processing ended: Wed Jul 24 09:27:28 2024
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:02
+
+

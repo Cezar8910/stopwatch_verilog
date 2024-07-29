@@ -1,0 +1,28 @@
+
+State Machine - |cronometro|contador_segundos:contador_cs|estado_atual
+Name estado_atual.PARAR estado_atual.PAUSAR estado_atual.CONTAR estado_atual.RESET 
+estado_atual.RESET 0 0 0 0 
+estado_atual.CONTAR 0 0 1 1 
+estado_atual.PAUSAR 0 1 0 1 
+estado_atual.PARAR 1 0 0 1 
+
+State Machine - |cronometro|contador_segundos:contador_ds|estado_atual
+Name estado_atual.PARAR estado_atual.PAUSAR estado_atual.CONTAR estado_atual.RESET 
+estado_atual.RESET 0 0 0 0 
+estado_atual.CONTAR 0 0 1 1 
+estado_atual.PAUSAR 0 1 0 1 
+estado_atual.PARAR 1 0 0 1 
+
+State Machine - |cronometro|contador_segundos:contador_us|estado_atual
+Name estado_atual.PARAR estado_atual.PAUSAR estado_atual.CONTAR estado_atual.RESET 
+estado_atual.RESET 0 0 0 0 
+estado_atual.CONTAR 0 0 1 1 
+estado_atual.PAUSAR 0 1 0 1 
+estado_atual.PARAR 1 0 0 1 
+
+State Machine - |cronometro|contador_inicial:contador_ms|estado_atual
+Name estado_atual.PARAR estado_atual.PAUSAR estado_atual.CONTAR estado_atual.RESET 
+estado_atual.RESET 0 0 0 0 
+estado_atual.CONTAR 0 0 1 1 
+estado_atual.PAUSAR 0 1 0 1 
+estado_atual.PARAR 1 0 0 1 
